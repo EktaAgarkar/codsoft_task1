@@ -1,0 +1,73 @@
+@import
+url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+* {
+font-family: 'DynaPuff', sans-serif;
+}
+body {
+margin: 0;
+padding: 0;
+background-color: #7021bb34;
+}
+.container {
+max-width: 2200px;
+margin: 0 auto;
+padding: 20px;
+text-align: center;
+background-color: #7ef0ff9c;
+}
+header {
+background-color: #416D19;
+color: #3febf7;
+padding: 3px;
+padding-left: 50px;
+text-align: center;
+}
+h1 {
+font-size: 50px;
+margin-bottom: 15px;
+font-weight: bold;
+text-align: center;
+}
+p {
+font-size: 35px;
+margin-bottom:1px;
+text-align: justify;
+margin-top: 2px;
+}
+.feature p {
+padding-left: 60px;
+padding-right: 60px;
+}
+.feature {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 40px;
+}
+.feature img {
+max-width: 25%;
+border-radius: 5px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature:nth-child(2) img {
+max-width: 30%;
+border-radius:30px;
+order: 1;
+}
+.feature:nth-child(2) p {
+max-width: 30%;
+order: 2;
+}
+.container h2 {
+font-size: 38px;
+}
+footer {
+background-color: #36031434;
+color: #000000;
+padding: 10px 0;
+text-align: center;
+/* position: fixed; */
+bottom: 0;
+width: 100%;
+left: 0;
+right: 0
